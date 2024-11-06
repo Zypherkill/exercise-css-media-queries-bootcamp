@@ -55,3 +55,26 @@ footer {
     width: 100%;
     margin-top: 0.5rem;
 }
+
+@media (max-width: 768px) {
+
+    ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.2rem;
+    }
+
+    section {
+        flex-direction: column;
+        height: 30rem;
+    }
+
+    article {
+        margin-right: 0;
+
+    }   
+    
+    footer {
+        padding-right: 0.5rem;
+    }
+    
+}
