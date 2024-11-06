@@ -55,6 +55,29 @@ footer {
     margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 768px){
+    .wrapper {
+        width: 100%;
+        padding 0;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 0.2rem;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+    }
+
+    aside, main {
+        width: 100%;
+        height: 16rem;
+    }
+
+}
+
 
 
 
