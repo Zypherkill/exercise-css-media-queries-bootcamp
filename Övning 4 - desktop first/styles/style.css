@@ -95,25 +95,21 @@ footer {
     }
 
     article:nth-child(1) {
-        background-color: #FD96A9;
         height: 6rem;
         grid-row: 1;
         grid-column: 1;
     }
     article:nth-child(2) {
-        background-color: #F42DAC;
         height: 6rem;
         grid-row: 4;
         grid-column: 1;
     }
     article:nth-child(3) {
-        background-color: #F42DAC;
         height: 6rem;
         grid-row: 2;
         grid-column: 1;
     }
     article:nth-child(4) {
-        background-color: #FD96A9;
         height: 6rem;
         grid-row: 3;
         grid-column: 1;
